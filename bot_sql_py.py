@@ -19,10 +19,10 @@ with open('./keys/cred.json', 'r') as f:
 token = cred['token'] 
 chat_id = cred['chat_id']   
 
-#token = '6089066540:AAHBs0E68ZsgA7iUBNpSVvVDTIIy5jCEAFE'
+
 bot = telebot.TeleBot(token)
 
-#chat_id = -1001910104945
+
 
 
 #convenient to wrap the pd.read_sql  in a wrapper function
